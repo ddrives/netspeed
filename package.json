@@ -1,6 +1,6 @@
 {
   "name": "@ddrive/netspeed",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Library For Tracking Download and Uploading Speeds For dDrives.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -12,14 +12,15 @@
     "test": "tape test.js | tap-spec"
   },
   "dependencies": {
-    "@dwcore/netspeed": "dwcore/netspeed#master",
-    "debug": "^3.1.0"
+    "@flockcore/presets": "^0.1.3",
+    "debug": "^3.1.0",
+    "speedometer": "^1.0.0"
   },
   "devDependencies": {
-    "@ddrive/core": "ddrives/core#master",
-    "@dwcore/channel": "dwcore/channel#master",
-    "@dwcore/rem": "*",
-    "@flockcore/revelation": "flockcore/revelation#master",
+    "@ddrive/core": "*",
+    "@flockcore/revelation": "*",
+    "pump": "^3.0.0",
+    "random-access-memory": "^2.3.0",
     "standard": "^11.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
